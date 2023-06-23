@@ -1,0 +1,26 @@
+body {
+    background: rgb(0, 61, 255);
+    background: linear-gradient(90deg, rgba(0, 61, 255, 1) 0%, rgba(50, 15, 116, 1) 100%);
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(50, 15, 116, 1);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 61, 255, 1);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+
+    background: blue;
+}
